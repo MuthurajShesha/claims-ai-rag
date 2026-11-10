@@ -31,13 +31,14 @@ Git
 
 **Architecture**
 
- User Question
  
- ->  Generate Embedding 
-    Microsoft.Extensions.AI 
+     User Question
+ 
+     ->  Generate Embedding 
+        Microsoft.Extensions.AI
    
-    ->  In-Memory Vector Store
-        Similarity Search (Top-K)
+      ->  In-Memory Vector Store
+          Similarity Search (Top-K)
         
         -> Retrieve Relevant Clauses
            Policy Chunk Retrieval
