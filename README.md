@@ -7,26 +7,27 @@ The application helps insurance staff answer policy-related questions by retriev
 Unlike a traditional chatbot, the assistant retrieves relevant policy information before generating responses, reducing hallucinations and improving answer reliability.
 
 **Key Features**
-Policy coverage verification
-Claims lookup support
-Waiting period validation
-Vector-based policy search
-Retrieval-Augmented Generation (RAG)
-Clause citation in responses
-Ollama local LLM integration
-Microsoft.Extensions.AI implementation
-ASP.NET Core Web API
-Hallucination mitigation through retrieval validation
+
+     Policy coverage verification
+     Claims lookup support
+     Waiting period validation
+     Vector-based policy search
+     Retrieval-Augmented Generation (RAG)
+     Clause citation in responses
+     Ollama local LLM integration
+     Microsoft.Extensions.AI implementation
+     ASP.NET Core Web API
+     Hallucination mitigation through retrieval validation
 
 
 **Prerequisites**
 
-.NET 10 SDK
-Ollama
-llama3.2 model
-nomic-embed-text model
-Visual Studio 2026 (or Visual Studio Code)
-Git
+    .NET 10 SDK
+    Ollama
+    llama3.2 model
+    nomic-embed-text model
+    Visual Studio 2026 (or Visual Studio Code)
+    Git
 
 
 **Architecture**
