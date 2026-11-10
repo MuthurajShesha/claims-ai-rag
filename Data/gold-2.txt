@@ -1,0 +1,9 @@
+PLAN GOLD-2: POLICY WORDING (SYNTHETIC EXAMPLE)
+Clause 3.1 Hospitalization. Inpatient hospitalization of 24 hours or more is covered up to the sum insured.
+Clause 3.4 Day-care procedures. A listed set of day-care procedures, including cataract surgery, is covered.
+Clause 4.2 Waiting period. Pre-existing conditions are covered only after 24 months of continuous coverage.
+Clause 4.5 Joint replacement. Knee and hip replacement is covered after a 24-month waiting period unless caused by an accident.
+Clause 5.1 Maternity. Maternity expenses are covered after a waiting period of 36 months, up to 50000 per delivery.
+Clause 5.3 Ambulance. Emergency road ambulance charges are covered up to 2000 per hospitalization.
+Clause 7.1 Exclusions. Cosmetic surgery, dental treatment (unless caused by accident), and treatment outside India are not covered.
+Clause 7.3 Room rent. Room rent is covered up to 1 percent of the sum insured per day.

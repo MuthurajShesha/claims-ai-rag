@@ -1,0 +1,12 @@
+CITY CARE HOSPITAL - FINAL BILL (SYNTHETIC)
+Patient: Asha Raman
+Policy: P100
+Diagnosis: Acute appendicitis
+Admission date: 2026-03-10
+Discharge date: 2026-03-13
+Room charges (3 days): 15000
+Surgeon fee: 30000
+Operation theatre: 20000
+Medicines: 12000
+Investigations: 8000
+TOTAL: 85000

@@ -1,0 +1,12 @@
+[
+  { "question": "Is knee replacement covered for a new policyholder?", "plan": "Gold-2", "expectedClause": "4.5" },
+  { "question": "Are dental treatments covered?", "plan": "Gold-2", "expectedClause": "7.1" },
+  { "question": "How much room rent is allowed per day?", "plan": "Gold-2", "expectedClause": "7.3" },
+  { "question": "Is cataract surgery covered?", "plan": "Gold-2", "expectedClause": "3.4" },
+  { "question": "What is the waiting period for pre-existing diseases?", "plan": "Gold-2", "expectedClause": "4.2" },
+  { "question": "Is an ambulance covered?", "plan": "Gold-2", "expectedClause": "5.3" },
+  { "question": "Is maternity covered?", "plan": "Silver-1", "expectedClause": "5.1" },
+  { "question": "Which day-care procedures are covered?", "plan": "Silver-1", "expectedClause": "3.4" },
+  { "question": "Is treatment abroad covered in an emergency?", "plan": "Platinum-3", "expectedClause": "6.2" },
+  { "question": "How long before hip replacement is covered?", "plan": "Platinum-3", "expectedClause": "4.5" }
+]
