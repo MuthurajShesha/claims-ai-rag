@@ -29,54 +29,28 @@ Visual Studio 2026 (or Visual Studio Code)
 Git
 
 
-**Architecture:**
-                         ┌────────────────────┐
-                         │   User Question    │
-                         └──────────┬─────────┘
-                                    │
-                                    ▼
-                     ┌──────────────────────────┐
-                     │ Generate Embedding       │
-                     │ Microsoft.Extensions.AI  │
-                     └──────────┬───────────────┘
-                                │
-                                ▼
-                  ┌──────────────────────────────┐
-                  │ In-Memory Vector Store       │
-                  │ Similarity Search (Top-K)    │
-                  └──────────┬───────────────────┘
-                             │
-                             ▼
-                ┌───────────────────────────────┐
-                │ Retrieve Relevant Clauses     │
-                │ Policy Chunk Retrieval        │
-                └──────────┬────────────────────┘
-                           │
-                           ▼
-              ┌──────────────────────────────────┐
-              │ Context Grounding                │
-              │ Retrieved Clauses Added Prompt   │
-              └──────────┬───────────────────────┘
-                         │
-                         ▼
-               ┌────────────────────────────┐
-               │ Ollama LLM                 │
-               │ Response Generation        │
-               └──────────┬─────────────────┘
-                          │
-                          ▼
-             ┌──────────────────────────────┐
-             │ Citation Validation          │
-             │ Hallucination Prevention     │
-             └──────────┬───────────────────┘
-                        │
-                        ▼
-              ┌────────────────────────────┐
-              │ Final Answer               │
-              │ With Clause References     │
-              └────────────────────────────┘
+**Architecture**
 
-
-
-
-              
+ User Question
+ 
+ ->  Generate Embedding 
+    Microsoft.Extensions.AI 
+   
+    ->  In-Memory Vector Store
+        Similarity Search (Top-K)
+        
+        -> Retrieve Relevant Clauses
+           Policy Chunk Retrieval
+          
+           -> Context Grounding
+              Retrieved Clauses Added Prompt
+            
+              -> Ollama LLM
+                  Response Generation
+                 
+                  -> Citation Validation
+                     Hallucination Prevention
+                    
+                     -> Final Answer
+                     With Clause References  
+         
